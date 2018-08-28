@@ -25,6 +25,10 @@ TOOLS_DIRECTORY="$ROOT_DIR/tools/"
 CONFIG_DIRECTORY="$ROOT_DIR/config/"
 CTF_DIRECTORY="$ROOT_DIR/ctfs/"
 
+mkdir -p $TOOLS_DIRECTORY
+mkdir -p $CONFIG_DIRECTORY
+mkdir -p $CTF_DIRECTORY
+
 # System packages
 
 dpkg --add-architecture i386
